@@ -3,7 +3,8 @@
     "frying pan",
     "cast iron skillet",
     "dutch oven",
-    "nonstick pan"
+    "nonstick pan",
+    "greek oven"
             ],
     "objects": [
         "eggs",
@@ -12,6 +13,9 @@
         "spinach",
         "fruit",
         "vegetables",
-        "client mods"
+        "client mods",
+        "olive oil",
+        "greek potatoes",
+        "french fries"
     ]
 }
