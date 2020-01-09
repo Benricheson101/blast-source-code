@@ -1,7 +1,7 @@
 const { DMChannel, RichEmbed } = require("discord.js");
 const { Command } = require("discord.js-commando");
 const { trustedroles } = require(`../../botconfig.json`);
-const phrases = require("../../phrases/8ball");
+const { phrases } = require("../../phrases/8ball");
 
 module.exports = class magic8ball extends Command {
 	constructor (client) {
