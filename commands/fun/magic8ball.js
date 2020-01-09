@@ -18,7 +18,7 @@ module.exports = class magic8ball extends Command {
 		});
 	}
 
-	run = async (message) => {
+    async run(message) {
 
 		if (message.author.bot) return;
 		if (message.channel instanceof DMChannel) return;
@@ -36,7 +36,7 @@ module.exports = class magic8ball extends Command {
 		return message.channel.send({
 			embed: new RichEmbed()
 				.setColor("#000000")
-				.setAuthor(message.author)
+				.setAuthor(message.author.tag, message.author.avatarURL)
 				.setTitle(randPhrase())
 				.setDescription(`>>> ${args.join(" ")}`)
 		});
